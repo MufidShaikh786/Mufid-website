@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Private Space</title>
-  <style>
-    body { background-color: #111; color: #eee; font-family: 'Segoe UI', sans-serif; text-align: center; padding: 2rem; }
-    input[type='password'] { padding: 10px; font-size: 1rem; }
-    .gallery { display: none; margin-top: 2rem; }
-    .gallery img { width: 200px; margin: 10px; border-radius: 10px; transition: transform 0.3s; }
-    .gallery img:hover { transform: scale(1.05); }
-    .welcome { display: none; font-size: 1.3rem; margin-top: 1rem; color: #f19ec2; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Private Space</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>🔐 Enter Access Key to Unlock Private Space</h2>
-  <input type="password" id="keyInput" placeholder="Enter secret key..." />
-  <button onclick="checkKey()">Unlock</button>
-  <p class="welcome" id="welcomeMsg">Welcome, naughty soul. You’ve just unlocked my hidden memories — made only for the bold. Browse wisely. 😏</p>
-  <div class="gallery" id="gallery">
-    <!-- Placeholder images -->
-    <img src="private-photos/sample1.jpg" alt="Private Memory 1" />
-    <img src="private-photos/sample2.jpg" alt="Private Memory 2" />
-  </div>
-  <script>
-    function checkKey() {
-      const key = document.getElementById('keyInput').value;
-      if (key === '7869') {
-        document.getElementById('gallery').style.display = 'block';
-        document.getElementById('welcomeMsg').style.display = 'block';
-      } else {
-        alert('Incorrect key. Access denied!');
-      }
-    }
-  </script>
+    <div class="container">
+        <h1>🔐 Welcome to Mufid's Private Space</h1>
+        <p>Hey, you naughty explorer 😏 — only those with the key <strong>7869</strong> may pass...</p>
+        <p>(Photo upload area will appear here in future)</p>
+    </div>
 </body>
 </html>

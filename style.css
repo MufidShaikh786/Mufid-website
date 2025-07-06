@@ -1,1 +1,22 @@
-/* Dark theme, custom fonts, animations, clean layout */
+
+body {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 2em;
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #2b2b2b;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+a.private-link {
+    display: inline-block;
+    margin-top: 1em;
+    color: #ffa500;
+    text-decoration: none;
+}
