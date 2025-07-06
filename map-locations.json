@@ -1,0 +1,9 @@
+[
+  {"name": "Goa", "lat": 15.2993, "lng": 74.1240, "description": "Trip memory", "images": []},
+  {"name": "Lonavala", "lat": 18.7540, "lng": 73.4072, "description": "Hill station trip", "images": []},
+  {"name": "Kolhapur", "lat": 16.7050, "lng": 74.2433, "description": "Visited for temple & food", "images": []},
+  {"name": "Mumbai", "lat": 19.0760, "lng": 72.8777, "description": "College tech fest", "images": []},
+  {"name": "Sawantwadi", "lat": 15.9044, "lng": 73.8212, "description": "Family visit", "images": []},
+  {"name": "Amboli", "lat": 15.9644, "lng": 74.0002, "description": "Nature trip", "images": []},
+  {"name": "Belgaum", "lat": 15.8497, "lng": 74.4977, "description": "South India entry point", "images": []}
+]
